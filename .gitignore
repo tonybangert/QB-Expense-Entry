@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.local
+.env.production
+
+# Data directory (DB, tokens, uploads)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/tokens.enc
+data/uploads/
+
+# Build output
+client/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archive
+files.zip
